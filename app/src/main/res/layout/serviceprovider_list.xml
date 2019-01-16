@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/listServiceProviderName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/coming_soon"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/listServiceProviderRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/coming_soon"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/listServiceProviderName"/>
+
+    <TextView
+        android:id="@+id/listServiceProviderAvailability"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/coming_soon"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/listServiceProviderRating"/>
+
+</android.support.constraint.ConstraintLayout>

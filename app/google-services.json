@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "252018671535",
+    "firebase_url": "https://despacithreeproject.firebaseio.com",
+    "project_id": "despacithreeproject",
+    "storage_bucket": "despacithreeproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252018671535:android:ea084e912a0a3cf6",
+        "android_client_info": {
+          "package_name": "com.uottawa.despacithree.despacithree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252018671535-atcqhvmfkl2uh0pp11h38dh6r9r6r7ke.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uottawa.despacithree.despacithree",
+            "certificate_hash": "a2e49ba2a0b95db8268d30dfea7786a16f29c251"
+          }
+        },
+        {
+          "client_id": "252018671535-o9epsm4g6dnvg2qeamembvof90jush6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjZc7pzrMkayy2ES7l74jeYP_zV-Y5GYU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252018671535-o9epsm4g6dnvg2qeamembvof90jush6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

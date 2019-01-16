@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Despacithree</string>
+
+    <string-array name="client_role">
+        <item>Homeowner</item>
+        <item>Service Provider</item>
+        <item>Admin</item>
+    </string-array>
+
+    <string-array name="provinces">
+        <item>Ontario</item>
+        <item>Quebec</item>
+        <item>Manitoba</item>
+        <item>Alberta</item>
+        <item>Saskatchewan</item>
+        <item>British-Columbia</item>
+        <item>New Brunswick</item>
+        <item>Prince Edward Island</item>
+        <item>Nova Scotia</item>
+        <item>Newfoundland and Labrador</item>
+        <item>Northwest Territories</item>
+        <item>Yukon</item>
+        <item>Nunavut</item>
+    </string-array>
+
+    <string-array name="ratings">
+        <item>All</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="rating">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="days">
+        <item>All</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string-array name="weekday">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string name="title_activity_navigation_draw_interface">NavigationDrawInterface</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_service_provider_interface">ServiceProviderInterface</string>
+</resources>

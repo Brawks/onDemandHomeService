@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/createBookingTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:fontFamily="@font/coming_soon"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Please select a day:"
+            />
+
+        <Spinner
+            android:id="@+id/createBookingDay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/createBookingTitle"
+            android:background="@android:color/background_light"></Spinner>
+
+        <TextView
+            android:id="@+id/createBookingSPAvailability"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:fontFamily="@font/coming_soon"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/colorAccent"
+            app:layout_constraintTop_toBottomOf="@id/createBookingDay"/>
+
+        <TextView
+            android:id="@+id/titleStartTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="Start Time: "
+            android:textSize="24sp"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/createBookingSPAvailability"/>
+
+        <TimePicker
+            android:id="@+id/timePickerStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            app:layout_constraintTop_toBottomOf="@id/titleStartTime"></TimePicker>
+
+        <TextView
+            android:id="@+id/titleEndTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="End Time: "
+            android:textSize="24sp"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/timePickerStart"/>
+
+        <TimePicker
+            android:id="@+id/timePickerEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:visibility="visible"
+            app:layout_constraintTop_toBottomOf="@id/titleEndTime"></TimePicker>
+
+        <TextView
+            android:id="@+id/availabilityError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/timePickerEnd"/>
+
+        <Button
+            android:id="@+id/btnApplyTimePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="Book"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/availabilityError"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <Button
+            android:id="@+id/btnCancelTimePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="Cancel"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/availabilityError"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
